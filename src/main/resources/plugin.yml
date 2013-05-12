@@ -4,7 +4,7 @@ description: Adds a {faction} token to the mmoInfo token list.
 author: Greatman
 website: http://github.com/greatman/mmoInfoFactionName
 main: com.greatmancode.mmoInfoFactionName.mmoInfoFactionName
-depend: [Spout,mmoCore,mmoInfo]
+depend: [Spout,mmoCore,mmoInfo,Factions]
 description: Adds {faction} to the info tokens
 permissions:
   mmo.info.faction:
