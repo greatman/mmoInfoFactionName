@@ -1,0 +1,12 @@
+name: mmoInfoFactionName
+version: ${releaseVersion}.${buildNumber}
+description: Adds a {faction} token to the mmoInfo token list.
+author: Greatman
+website: http://github.com/greatman/mmoInfoFactionName
+main: com.greatmancode.mmoInfoFactionName.mmoInfoFactionName
+depend: [Spout,mmoCore,mmoInfo]
+description: Adds {faction} to the info tokens
+permissions:
+  mmo.info.faction:
+    description: Allows {faction} to show the current player faction.
+    default: true
